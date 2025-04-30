@@ -1,0 +1,68 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 20;
+    padding: 0px;
+    background-color: #ffffff; /* Color blanco */
+}
+
+h2{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+    background-color: #e87fbb; /* Color coral */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+nav {
+    margin: 20px; /* Análisis de datos */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #000000;
+}
+a{
+    color: #000000;
+}
+
+main {
+    margin: 20px;
+}
+img{
+margin: 10px;
+padding: 0px;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #ec53a0;
+  }
+
+footer {
+    background-color: #e87fbb; /* Color coral */
+    color: #ffffff;
+    text-align: center;
+    padding: 1em; */
+}
