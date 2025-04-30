@@ -83,7 +83,42 @@
     <td>Ciencia de datos</td>
   </tr>
 </table>
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Profesión</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ana</td>
+      <td>25</td>
+      <td>Ingeniera</td>
+    </tr>
+    <tr>
+      <td>Carlos</td>
+      <td>32</td>
+      <td>Abogado</td>
+    </tr>
+  </tbody>
+</table>
     </main>
+<form action="#" method="post">
+    <h2>Formulario de Contacto</h2>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+    <label for="motivo">Motivo del contacto:</label>
+    <input type="text" id="motivo" name="motivo" placeholder="¿Por qué deseas contactarme?" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" placeholder="tucorreo@example.com" required>
+
+    <input type="submit" value="Enviar">
+  </form>
    
          <!-- Contenedor principal-->
     <footer>
@@ -93,5 +128,6 @@
             &copy; 2024 - mi primera página
         </p>
     </footer>
+      <script src="script.js"></script>
 </body>
 </html>

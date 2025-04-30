@@ -1,0 +1,24 @@
+<script>
+    const formulario = document.getElementById('formulario-contacto');
+    const mensajeExito = document.getElementById('mensaje-exito');
+
+    formulario.addEventListener('submit', function(evento) {
+      evento.preventDefault(); // Evita que se recargue la página
+
+      // Opcional: Validación básica adicional en JavaScript
+      const nombre = document.getElementById('nombre').value.trim();
+      const motivo = document.getElementById('motivo').value.trim();
+      const email = document.getElementById('email').value.trim();
+
+      if (nombre === '' || motivo === '' || email === '') {
+        alert('Por favor completa todos los campos.');
+        return;
+      }
+
+      // Mostrar mensaje de éxito
+      mensajeExito.style.display = 'block';
+
+      // Limpiar formulario
+      formulario.reset();
+    });
+  </script>
